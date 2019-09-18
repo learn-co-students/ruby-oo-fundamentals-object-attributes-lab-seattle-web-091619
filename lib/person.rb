@@ -1,9 +1,11 @@
 
 
+▲ = 30  
+
 class Person
 
     def name= (name)
-        @name = name
+        @name = name 
     end
 
     def name (name)
@@ -37,3 +39,4 @@ fido.name = "Fido"
 snoopy = Dog.new
 snoopy.breed = "Beagle"
 
+puts ▲
